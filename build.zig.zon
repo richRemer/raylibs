@@ -1,0 +1,13 @@
+.{
+    .name = .raylibs,
+    .version = "0.0.0",
+    .fingerprint = 0x79c0d18af04eda86,
+    .minimum_zig_version = "0.15.2",
+    .paths = .{
+        "build.zig",
+        "build.zig.zon",
+        "src",
+        "LICENSE",
+        "README.md",
+    },
+}
