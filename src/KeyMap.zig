@@ -4,6 +4,7 @@
 const raylib = @import("raylib.zig");
 const KeyMap = @This();
 
+drop_block: c_int = raylib.KEY_NULL,
 move_down: c_int = raylib.KEY_NULL,
 move_left: c_int = raylib.KEY_NULL,
 move_right: c_int = raylib.KEY_NULL,
@@ -11,6 +12,7 @@ move_up: c_int = raylib.KEY_NULL,
 quit: c_int = raylib.KEY_NULL,
 
 pub const default: KeyMap = .{
+    .drop_block = raylib.KEY_SPACE,
     .move_down = raylib.KEY_DOWN,
     .move_left = raylib.KEY_LEFT,
     .move_right = raylib.KEY_RIGHT,
